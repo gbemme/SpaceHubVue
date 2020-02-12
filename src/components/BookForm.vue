@@ -1,9 +1,9 @@
 <template>
-    <h1>Book Form</h1>
+  <h1>Book Form</h1>
 </template>
 
 <script>
-    export default{
-        name: 'BookForm',
-    }
+export default {
+  name: "BookForm"
+};
 </script>

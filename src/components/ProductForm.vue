@@ -1,10 +1,9 @@
 <template>
-    <h1>Admin Product Form</h1>
+  <h1>Admin Product Form</h1>
 </template>
 
 <script>
-    export default{
-        name: 'ProductForm',
-    }
-
+export default {
+  name: "ProductForm"
+};
 </script>
