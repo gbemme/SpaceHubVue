@@ -1,14 +1,4 @@
 <template>
-<<<<<<< HEAD
-  <h1>Book Form</h1>
-</template>
-
-<script>
-export default {
-  name: "BookForm"
-};
-</script>
-=======
 
 <div class="container-fluid">
     <nav class="nav justify-content-end navbar navar-dark bg-dark">
@@ -65,4 +55,3 @@ export default {
     color: blue;
 }
 </style>
->>>>>>> 2d68af290064ce8ed38ec449a7e6b4e4dd52580e
