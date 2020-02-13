@@ -29,10 +29,9 @@
 </template>
 
 <script>
-    export default{
-        name: 'ProductForm',
-    }
-
+export default {
+  name: "ProductForm"
+};
 </script>
 <style src="./productform.css" scoped>
 

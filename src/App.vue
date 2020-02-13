@@ -1,21 +1,15 @@
 <template>
-  <div id ='app'>
+  <div id="app">
     <transition>
       <router-view></router-view>
     </transition>
   </div>
 </template>
 
-
-
 <script>
-    export default{
-      name:'app',
-    }
+export default {
+  name: "app"
+};
 </script>
 
-
-
-<style>
-
-</style>
+<style></style>

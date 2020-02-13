@@ -1,16 +1,11 @@
 <template>
-
-    <h1>Landing Page</h1>
-
+  <h1>Landing page</h1>
 </template>
 
-
 <script>
-    export default{
-       name:'Home',
-    }
+export default {
+  name: "Home"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style src="./Home.css" scoped></style>
