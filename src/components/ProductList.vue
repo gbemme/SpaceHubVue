@@ -21,7 +21,7 @@
             <td>{{product.productPrice}}</td>
             <td>{{product.productPlan}}</td>
                <td>{{product.status}}</td>
-            <td>DELETE|UPDATE</td>
+            <td> <button class="btn btn-danger" v-on:click="deleteProduct(product)">Delete</button></td>
           </tr>
           <!-- <tr class="table4">
             <th scope="row" class="row2">2</th>
@@ -75,9 +75,11 @@ const BASE_URL = 'http://localhost:8085/spacehubWeb/listProduct'
             productName: '',
             productPrice: '',
             productPlan: '',
+            status: '',
 
           }
         },
+        
         async created(){
           try {
             const result = await axios.get(BASE_URL);
@@ -88,7 +90,22 @@ const BASE_URL = 'http://localhost:8085/spacehubWeb/listProduct'
 
           }
 
+        },
+        methods:{
+
+        deleteProduct: async function(product){
+
+          if (confirm("Are you sure you want to delete this product?")) {
+                await axios.delete("http://localhost:8085/spacehubWeb/deleteProduct/"+ product.id);
+          } else {
+              // Do nothing!
+          }
+        
+          
         }       
+    },
+
+      
     }
     
 </script>
