@@ -1,0 +1,56 @@
+#move {
+    font: 300 14px/1.5 'Oxygen', sans-serif;
+    text-align: center;
+    margin-left: 25%;
+    padding-top: 5%;
+  }
+  
+  .table td,
+  .table th  {
+    
+    padding: 20px;
+    
+    
+    text-align: center;
+    
+  }
+  
+  .tooltip .arrow:before {
+    border-left-color: #dc3545;
+    
+  }
+  .tooltip .tooltip-inner {
+    background: #dc3545;
+    
+  }
+.row1,
+.row3,
+.row5{
+  background:white;
+}
+.table1{
+  background:white;
+}
+.table2{
+  background:white;
+}
+.table3{
+  background:white;
+}
+.table4{
+  background: lightblue;
+}
+.table5{
+  background: lightblue;
+}
+.tables{
+  background: blue;
+  text-decoration-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table table-striped {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+}
