@@ -36,6 +36,10 @@ export default {
     data: () => ({
         navList: [
             {
+                name: 'Home',
+                path: '#home'
+            },
+            {
                 name: 'Services',
                 path: '#services'
             },
@@ -56,8 +60,8 @@ export default {
                 path: '#contact'
             },
             {
-                name: 'Blog',
-                path: '/blog'
+                name: 'Login',
+                path: '/login'
             }
         ]
     })

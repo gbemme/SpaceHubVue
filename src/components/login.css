@@ -1,0 +1,499 @@
+/* Style all input fields 
+.cloud{
+  background-image: url(http://res.cloudinary.com/spacehubpictures/image/upload/v1583342998/header-bg1.jpg.jpg);
+}*/
+
+.gbemi {
+  background-image: url(http://res.cloudinary.com/spacehubpictures/image/upload/c_fill,h_662,w_1000/v1583414800/village.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  
+}
+
+.navbar-brand {
+  color: #fed136;
+  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
+
+.contact-clean form .btn,
+.newsletter-subscribe form .btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .4px;
+  text-shadow: none
+}
+
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+  color: #fff
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 500;
+  padding: .75em 0;
+  letter-spacing: 1.5px;
+  color: #fec810;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fff
+}
+
+@media (min-width:992px) {
+  #mainNav {
+      padding-top: 25px;
+      padding-bottom: 30px;
+      transition: padding-top .3s, padding-bottom .3s;
+      border: none;
+      background-color: transparent
+  }
+  #mainNav .navbar-brand {
+      font-size: 1.75em;
+      transition: all .3s
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em!important
+  }
+  #mainNav.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: #212529
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.25em;
+      padding: 12px 0
+  }
+}
+
+.contact-clean form .btn:active,
+.newsletter-subscribe form .btn:active,
+.register-photo form .btn-primary:active {
+  transform: translateY(1px)
+}
+
+.contact-clean {
+  padding: 80px 0
+}
+
+
+/* @media (max-width:767px) {
+.contact-clean {
+    padding: 20px 0
+}
+} */
+
+.contact-clean form .btn:active,
+.newsletter-subscribe form .btn:active,
+.register-photo form .btn-primary:active {
+  transform: translateY(1px)
+}
+
+.contact-clean form .btn,
+.newsletter-subscribe form .btn,
+.team-clean .item .title {
+  text-transform: uppercase;
+  font-weight: 700
+}
+
+.contact-clean {
+  
+  padding: 80px 0
+}
+
+@media (max-width:767px) {
+  .contact-clean {
+      padding: 20px 0
+  }
+}
+
+.contact-clean form {
+  max-width: 480px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .1)
+}
+
+@media (max-width:767px) {
+  .contact-clean form {
+      padding: 30px
+  }
+}
+
+.contact-clean h2 {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 36px;
+  color: inherit
+}
+
+.contact-clean .form-group:last-child {
+  margin-bottom: 5px
+}
+
+.contact-clean form .form-control {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .05);
+  outline: 0;
+  color: inherit;
+  padding-left: 12px;
+  height: 42px
+}
+
+.contact-clean form .form-control:focus {
+  border: 1px solid #b2b2b2
+}
+
+.contact-clean form textarea.form-control {
+  min-height: 100px;
+  max-height: 260px;
+  padding-top: 10px;
+  resize: vertical
+}
+
+.contact-clean form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: 0 0;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: .9;
+  font-size: 13px;
+  letter-spacing: .4px;
+  line-height: 1;
+  outline: 0!important
+}
+
+.contact-clean form .btn:hover {
+  opacity: 1
+}
+
+.contact-clean form .btn-primary {
+  background-color: #055ada!important;
+  margin-top: 15px;
+  color: #fff
+}
+
+.newsletter-subscribe {
+  color: #313437;
+  background-color: #fff;
+  padding: 50px 0
+}
+
+.newsletter-subscribe p {
+  color: #7d8285;
+  line-height: 1.5
+}
+
+.newsletter-subscribe h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit
+}
+
+.newsletter-subscribe .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom: 35px
+}
+
+.newsletter-subscribe form {
+  justify-content: center
+}
+
+.newsletter-subscribe form .form-control {
+  background: #eff1f4;
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: 0;
+  color: inherit;
+  text-indent: 9px;
+  height: 45px;
+  margin-right: 10px;
+  min-width: 250px
+}
+
+.newsletter-subscribe form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: 0 0;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: .9;
+  font-size: 13px;
+  letter-spacing: .4px;
+  line-height: 1
+}
+
+.newsletter-subscribe form .btn:hover {
+  opacity: 1
+}
+
+.newsletter-subscribe form .btn-primary {
+  background-color: #055ada!important;
+  color: #fff;
+  outline: 0!important
+}
+
+@media (min-width:768px) {
+  .register-photo {
+      background: #f1f7fc;
+      padding: 80px 0
+  }
+}
+
+.register-photo .image-holder {
+  display: table-cell;
+  width: auto;
+  background: url(http://res.cloudinary.com/spacehubpictures/image/upload/v1583342998/header-bg1.jpg.jpg);
+  background-size: cover
+}
+
+.register-photo .form-container {
+  display: table;
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .1)
+}
+
+.register-photo form {
+  display: table-cell;
+  width: 400px;
+  background-color: #fff;
+  padding: 40px 60px;
+  color: #505e6c
+}
+
+@media (max-width:991px) {
+  .register-photo form {
+      padding: 40px
+  }
+}
+
+.register-photo form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px
+}
+
+.register-photo form .form-control {
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: 0;
+  color: inherit;
+  text-indent: 6px;
+  height: 40px
+}
+
+.register-photo form .form-check {
+  font-size: 13px;
+  line-height: 20px
+}
+
+.register-photo form .btn-primary {
+  background: #f4476b;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 35px;
+  text-shadow: none;
+  outline: 0!important
+}
+
+.register-photo form .btn-primary:active,
+.register-photo form .btn-primary:hover {
+  background: #eb3b60
+}
+
+.register-photo form .already {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: .9;
+  text-decoration: none
+}
+
+#header {
+  color: #00E0AA
+}
+
+.team-clean {
+  color: #313437;
+  background-color: #fff
+}
+
+.team-clean p {
+  color: #7d8285
+}
+
+.team-clean h2 {
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit
+}
+
+@media (max-width:767px) {
+  .team-clean h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px
+  }
+}
+
+.team-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto
+}
+
+.team-clean .intro p {
+  margin-bottom: 0
+}
+
+.team-clean .people {
+  padding-bottom: 40px
+}
+
+.team-clean .item {
+  text-align: center;
+  padding-top: 50px
+}
+
+.team-clean .item .name {
+  font-weight: 700;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: inherit
+}
+
+.team-clean .item .title {
+  color: #d0d0d0;
+  letter-spacing: 2px;
+  font-size: 13px
+}
+
+.team-clean .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px
+}
+
+.team-clean .item img {
+  max-width: 160px
+}
+
+.team-clean .social {
+  font-size: 18px;
+  color: #a2a8ae
+}
+
+.team-clean .social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: .7
+}
+
+.team-clean .social a:hover {
+  opacity: 1
+}
+
+.contact-clean form {
+  max-width: 600px;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .1)
+}
+
+@media (max-width:767px) {
+  .contact-clean form {
+      padding: 30px
+  }
+}
+
+.contact-clean h2 {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 36px;
+  color: inherit
+}
+
+.contact-clean .form-group:last-child {
+  margin-bottom: 5px
+}
+
+.contact-clean form .form-control {
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .05);
+  outline: 0;
+  color: inherit;
+  padding-left: 12px;
+  height: 42px
+}
+
+.contact-clean form .form-control:focus {
+  border: 1px solid #b2b2b2
+}
+
+.contact-clean form textarea.form-control {
+  min-height: 100px;
+  max-height: 260px;
+  padding-top: 10px;
+  resize: vertical
+}
+
+.contact-clean form .btn {
+  padding: 16px 32px;
+  border: none;
+  box-shadow: none;
+  opacity: .9;
+  font-size: 13px;
+  line-height: 1;
+  outline: 0!important
+}
+
+.contact-clean form .btn:hover {
+  opacity: 1
+}
+
+.contact-clean form .btn-primary {
+  width: 100%;
+  /* color: white; */
+}
+
+
+/* #header{
+color: #00D09E;
+} */

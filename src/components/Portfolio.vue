@@ -9,18 +9,23 @@
         </div>
         <div class="row">
           
-            <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="col-md-6 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
+                <!-- <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"> -->
+                      
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
+                         
                         </div>
+                     
                     </div>
                     <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
-                </a>
+                       <!-- <button><a href="./book">Submit</a></button> -->
+                <!-- </a> -->
                 <div class="portfolio-caption">
                     <h4>{{ obj.caption }}</h4>
                     <p class="text-muted">{{ obj.title }}</p>
+                    <button><a href="./book">Book Now</a></button>
+
                 </div>
             </div>
         </div>

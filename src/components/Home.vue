@@ -1,7 +1,10 @@
 <template>
  <div>
-
+   
+   <!-- Portfolio Grid -->
+    <Navigation></Navigation>
     <!-- Header -->
+    <section id="home">
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
@@ -11,6 +14,7 @@
         </div>
       </div>
     </header>
+    </section>
 
     <!-- Services -->
     <section id="services">
@@ -23,26 +27,29 @@
         </div>
         <div class="row text-center">
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            <span>
+              <img src="http://res.cloudinary.com/spacehubpictures/image/upload/c_scale,h_245,w_370/v1583345857/mini.jpeg.jpg">
+              <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
             </span>
             <h4 class="service-heading">Dedicated Desks</h4>
             <p class="text-muted">Enjoy a private, confidential and comfortable space without limits..</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
+            <!-- <span class="fa-stack fa-4x"> -->
+              <img src="http://res.cloudinary.com/spacehubpictures/image/upload/c_scale,h_245,w_370/v1583345916/AQP_6880.jpg.jpg">
+              <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i> -->
+            <!-- </span> -->
             <h4 class="service-heading">Private Offices</h4>
             <p class="text-muted">A well organized and dedicated space to attend to clients and customers..</p>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
+            <!-- <span class="fa-stack fa-4x"> -->
+              <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-lock fa-stack-1x fa-inverse"></i> -->
+              <img src="https://res.cloudinary.com/spacehubpictures/image/upload/c_scale,h_245,w_370/v1583345846/Redahlia-Workspaces-.jpg.jpg">
+            <!-- </span> -->
             <h4 class="service-heading">Shared Spaces</h4>
             <p class="text-muted">Our shared co-working space enhance creativity and boost innovation..</p>
           </div>
@@ -144,7 +151,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-3">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
               <h4>Gbemi Imran</h4>
@@ -168,7 +175,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-3">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
               <h4>Kenneth Nwobodo</h4>
@@ -192,11 +199,35 @@
               </ul>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
+              <h4>Dada Micheal</h4>
+              <p class="text-muted">Lead Frontend Developer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
               <h4>Lekan Balogun</h4>
-              <p class="text-muted">Lead Frontend Developer</p>
+              <p class="text-muted">Frontend Developer</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -341,20 +372,22 @@
     <!-- Portfolio Modals -->
 
     <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
             <div class="lr">
               <div class="rl"></div>
             </div>
-          </div>
-          <div class="container">
+          </div> -->
+            <!-- Portfolio Grid -->
+        
+          <!-- <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
+                <div class="modal-body"> -->
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
+                  <!-- <h2 class="text-uppercase">Project Name</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
@@ -369,10 +402,10 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </div> -->
+        <!-- </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Modal 2 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
@@ -553,8 +586,9 @@ import Navigation from './Navigation'
 export default {
   name: 'app',
   components: {
-    Portfolio 
-  }
+    Portfolio ,
+    Navigation
+  },
 }
 </script>
 
